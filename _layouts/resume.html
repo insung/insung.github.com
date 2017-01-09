@@ -31,7 +31,8 @@
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
+        <p>궁금한 사항이 있으면 {{ site.resume_contact_email }} 으로 연락 주세요.</p>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">메일 보내기</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking">I'm not looking for work right now.</a>
         {% else %}
