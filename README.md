@@ -9,7 +9,7 @@ references https://jekyllrb.com/docs/quickstart/
   * gem install jekyll bundler
   
 * Update Bundle
-  * bundle instal
+  * bundle install
   
 * Hosting site (current directory)
   * bundle exec jekyll serve
