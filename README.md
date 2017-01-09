@@ -8,5 +8,10 @@ https://rubyinstaller.org/downloads/
 2. Install Jekyll environment
 gem install jekyll bundler
 
-3. Create a new Jekyll site
-jekyll new myblog
+3. Update Bundle
+bundle install
+
+4. Hosting site (current directory)
+bundle exec jekyll serve
+
+5. open browser to localhost:4000
