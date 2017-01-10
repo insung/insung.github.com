@@ -1,51 +1,57 @@
 # Site settings
-title: "인성"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: 황인성
+email: dev.insung.hwang@gmail.com
+url: https://insung.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Web Developer"
+meta_author: 황인성
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 828282 #18bc9c #80B3FF
+  primary-rgb: "116,168,220" #"24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: insung hwang
+  location: 우리집
+  social: 깃헙 & 빗버켓
+  credits: 크레딧
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/insung
+  - title: bitbucket
+    url: https://bitbucket.org/insunghwang  
+  - title: twitter
+    url: http://twitter.com/imissyoubrad
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 서울시 서대문구 북가좌동
+
+# Credits content
+credits: 'Start Bootstrap 사이트의 <a href="https://startbootstrap.com/template-overviews/freelancer/">Freelancer theme</a> 를 사용하였습니다.'
 
 # Build settings
 markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Hommer"
-resume_title:                   "Web Developer"
-resume_contact_email:
-  "dev.insung.hwang@gmail.com"
-
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
-
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/insung"
-  resume_twitter_url:           "https://twitter.com/imissyoubrad"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
-  resume_bitbucket_url:         "https://bitbucket.org/insunghwang"
-
-# Design settings
-resume_theme:                   default
-
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+permalink: pretty
