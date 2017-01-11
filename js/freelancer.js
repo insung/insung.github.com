@@ -13,6 +13,8 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    Pizza.init();
 });
 
 // Floating label headings for the contact form
