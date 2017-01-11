@@ -6,6 +6,6 @@ alt: image-alt
 project-date: 2016년 10월 &mdash; 2016sus 12월
 category: ShadowCube
 classification: file upload page
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: ShadowCube 의 사용자들이 암호화된 파일을 복호화하기 위해 요청할 수 있는 페이지입니다. 암호화된 파일을 Drag & Drop 하여 파일을 업로드하면 문서그룹 정보를 표시하며, 결재자, 요청 사유 등을 입력할 수 있습니다.
 
 ---

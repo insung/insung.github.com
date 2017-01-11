@@ -6,6 +6,6 @@ alt: image-alt
 project-date: 2012년 4월 &mdash; 현재
 category: ShadowCube
 classification: main page
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: ShadowCube 서버의 메인 페이지입니다. 해당 서버의 데이터베이스 정보와 디스크 사용량, ShadowCube 에서 사용하는 인증서 발급정보 및 도메인 라이선스 정보를 한 눈에 볼 수 있게 구성하였습니다.
 
 ---

@@ -8,6 +8,6 @@ project-date: 2016년 8월 &mdash; 2016년 10월
 client: LG U+ 웹하드
 category: LG U+ 웹하드 Security Service
 classification: LifeCycle view page
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: 오피스 파일을 Webhard LifeCycle(WLC) 파일로 변환하면 해당 파일을 유효기간 설정 및 실시간으로 폐기할 수 있습니다. 이 페이지는 WLC 파일을 뷰잉하는 페이지입니다.<br /><br /><a href="http://www.webhard.co.kr/webII/page/service/?p=edrm">LG U+ 웹하드 문서보안 소개 페이지</a>를 방문해 보세요!
 
 ---
