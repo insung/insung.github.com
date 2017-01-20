@@ -14,7 +14,22 @@ $(function() {
         event.preventDefault();
     });
 
-    Pizza.init();
+    var skill_data = [
+        {label: "ASP.NET", value: 90},
+        {label: "JQuery/Bootstrap", value: 50},
+        {label: "SQL Server", value: 80},
+        {label: "PostgreSQL", value: 80},
+        {label: "C++", value: 40}
+    ];
+
+    new Morris.Line({
+        element: 'skill-chart',
+        data: skill_data,
+        xkey: 'label',
+        ykeys: ['value'],
+        labels: ['value'],
+        parseTime: false
+    });
 });
 
 // Floating label headings for the contact form
