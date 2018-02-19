@@ -1,6 +1,8 @@
-### Developed by Ruby Jekyll on Windows
+# How to use
 
-references https://jekyllrb.com/docs/quickstart/
+### Install Ruby & Jekyll on Windows
+
+* references https://jekyllrb.com/docs/quickstart/
 
 * Download Ruby + Ruby Devkit 
   * https://rubyinstaller.org/downloads/
@@ -12,6 +14,8 @@ references https://jekyllrb.com/docs/quickstart/
   
 * Install Jekyll environment
   * gem install jekyll bundler
+
+### Run this project
   
 * Update Bundle
   * bundle install
@@ -20,3 +24,4 @@ references https://jekyllrb.com/docs/quickstart/
   * bundle exec jekyll serve
   
 * open browser to localhost:4000
+
