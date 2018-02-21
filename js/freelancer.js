@@ -15,10 +15,10 @@ $(function() {
     });
 
     var skill_data = [
-        {label: "ASP.NET", value: 90},
+        {label: "ASP.NET", value: 80},
         {label: "JQuery/Bootstrap", value: 50},
-        {label: "SQL Server", value: 80},
-        {label: "PostgreSQL", value: 80},
+        {label: "SQL Server", value: 70},
+        {label: "PostgreSQL", value: 70},
         {label: "C++", value: 40}
     ];
 
