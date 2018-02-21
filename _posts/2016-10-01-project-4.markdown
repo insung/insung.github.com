@@ -1,6 +1,7 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 4
+date: 2016-10-01
 img: backload_page.png
 alt: image-alt
 project-date: 2016년 10월 &mdash; 2016sus 12월

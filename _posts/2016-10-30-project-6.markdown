@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2016-10-30
 img: view_page.png
 alt: image-alt
 project-date: 2016년 8월 &mdash; 2016년 10월
