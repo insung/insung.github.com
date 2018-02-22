@@ -14,21 +14,33 @@
                         <div class="modal-body">
                             <h2>{{ post.classification }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">                            
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                <li>고객:
-                                    <strong>{{ post.client }}</strong>
+                                {% if post.role %}
+                                <li><strong>역할:</strong>
+                                    {{ post.role }}
                                 </li>
                                 {% endif %}
-                                <li>기간:
-                                    <strong>{{ post.project-date }}</strong>
+                                {% if post.skill %}
+                                <li><strong>기술:</strong>
+                                    {{ post.skill }}
                                 </li>
-                                <li>프로젝트:
-                                    <strong>{{ post.category }}</strong>
+                                {% endif %}
+                                {% if post.client %}
+                                <li><strong>고객:</strong>
+                                    {{ post.client }}
+                                </li>
+                                {% endif %}
+                                <li><strong>기간:</strong>
+                                    {{ post.project-date }}
+                                </li>
+                                <li><strong>프로젝트:</strong>
+                                    {{ post.category }}
                                 </li>
                             </ul>
+                            <strong>설명:</strong>
+                            <p>{{ post.description }}</p>
+                            <br />
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> 닫기</button>
                         </div>
                     </div>

@@ -460,3 +460,8 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* modal list-inline seperator */
+.list-inline li:after {
+    content: '|';
+}
