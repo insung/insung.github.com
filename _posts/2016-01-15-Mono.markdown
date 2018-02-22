@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 4
+date: 2016-01-15
+img: mono.png
+alt: ShadowCube for linux
+project-date: 2014년 7월 &mdash; 2016년 1월
+category: ShadowCube for linux
+classification: ShadowCube for linux
+skill: mono
+description: 
+
+---

@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 7
 date: 2016-10-30
 img: view_page.png
 alt: WLC Viewing Page
