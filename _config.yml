@@ -24,7 +24,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 828282 #18bc9c #80B3FF
+  primary: 40A8A8 #9FC5C6 #8FBBBC #828282 #18bc9c #80B3FF
   primary-rgb: "116,168,220" #"24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
@@ -34,7 +34,7 @@ color:
 footer:
   copyright: insung hwang
   location: 우리집
-  social: Github & Bitbucket
+  social: visit my Github & Bitbucket
   credits: 크레딧
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

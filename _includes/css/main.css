@@ -340,16 +340,16 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 15px;
     background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding: 15px 0;
     background-color: #{{ site.color.secondary-dark }};
 }
 
