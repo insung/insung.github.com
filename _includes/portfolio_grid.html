@@ -11,26 +11,22 @@
             <div class="row">
             
             {% assign posts = site.posts | sort: 'modal-id' %}
-            {% assign size = site.posts.size | plus: 1 %}
-            {% for i in (0..size) %}
-            
-                {% assign post = posts[i] %}
-                {% assign mod = i | modulo: 3 %}
+            {% for post in posts %}
 
-                    <div class="col-md-3 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                            <figure class="figure">
-                                <img src="img/portfolio/{{ post.img }}" class="img-responsive portfolio-img-size" alt="{{ post.alt }}">
-                                <figcaption class="figure-cation">{{ post.alt }}</figcaption>
-                            </figure>
-                            
-                        </a>
-                    </div>
+                        </div>
+                        <figure class="figure">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive portfolio-img-size" alt="{{ post.alt }}">
+                            <figcaption class="figure-caption cation-text">{{ post.alt }}</figcaption>
+                        </figure>
+                        
+                    </a>
+                </div>
 
             {% endfor %}
             </div>

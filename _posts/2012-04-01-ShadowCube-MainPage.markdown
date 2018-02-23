@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 date: 2012-04-01
 img: main_page.png
-alt: image-alt
+alt: ShadowCube main page
 project-date: 2012년 4월 &mdash; 현재
 category: ShadowCube
 classification: main page

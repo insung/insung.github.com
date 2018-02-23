@@ -16,7 +16,7 @@ $(function() {
 
     var skill_data = [
         {label: "ASP.NET", value: 80},
-        {label: "JQuery/Bootstrap", value: 50},
+        {label: "Javascript", value: 70},
         {label: "SQL Server", value: 70},
         {label: "PostgreSQL", value: 70},
         {label: "C++", value: 40}

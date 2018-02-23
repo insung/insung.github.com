@@ -8,6 +8,6 @@ project-date: 2014년 7월 &mdash; 2016년 1월
 category: ShadowCube for linux
 classification: ShadowCube for linux
 skill: mono
-description: 
+description: 2016년 말 ASP.NET 으로 구현된 ShadowCube 솔루션을 Linux + Mono 환경으로 이전하는 것을 성공하였습니다.(<a href="http://www.mono-project.com/" target="_blank">Mono Project 참고</a>) 1여년간의 노력이 성공을 이룬 것이죠.<br />단순히 ASP.NET 을 Linux 로 포팅한 것이 아니라 ShadowCube 서버를 Linux 환경에서 완벽하게 동작하도록 적용시킨 것입니다.<br />이를 계기로 윈도우 서버를 구매하는데 어려움이 많은 기업들에게 홍보할 수 있게 되었고 영업이익도 늘어났습니다.
 
 ---

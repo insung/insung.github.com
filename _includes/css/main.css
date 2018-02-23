@@ -451,7 +451,12 @@ footer .footer-below {
 }
 
 .portfolio-img-size {
-    min-height: 200px;    
+    min-height: 180px;    
+}
+
+.cation-text {
+    color: #{{ site.color.secondary }};
+    text-align: center;
 }
 
 .navbar-nav>.active>a {

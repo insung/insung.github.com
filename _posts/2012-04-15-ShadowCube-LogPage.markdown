@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 date: 2012-04-15
 img: document_log_page.png
-alt: image-alt
+alt: ShadowCube log page
 project-date: 2012년 4월 &mdash; 현재
 category: ShadowCube
 classification: log page

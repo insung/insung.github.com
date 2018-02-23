@@ -3,7 +3,7 @@ layout: default
 modal-id: 3
 date: 2014-11-01
 img: db_migration_tool.png
-alt: image-alt
+alt: DB Migration Tool
 project-date: 2014년 11월
 category: ShadowCube
 classification: DB migration tool
