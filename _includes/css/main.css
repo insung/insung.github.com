@@ -471,6 +471,6 @@ footer .footer-below {
 }
 
 /* modal list-inline seperator */
-.list-inline li:after {
+.item-sepertor li:after {
     content: '|';
 }
