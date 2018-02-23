@@ -28,3 +28,4 @@
 ### 참고 사이트
 
 * http://www.kaiwa-projects.com/ko/
+* http://woowabros.github.io/experience/2017/07/17/resume.html
