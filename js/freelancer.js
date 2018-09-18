@@ -15,11 +15,11 @@ $(function() {
     });
 
     var skill_data = [
-        {label: "ASP.NET (.net core)", value: 80},
-        {label: "Javascript (ext.net, jquery..)", value: 70},
-        {label: "RDBMS (MSSQL, Postgres)", value: 80},
-        {label: "Docker (with Remote API)", value: 80},
-        {label: "Node.js (with express.js)", value: 70},
+        {label: "ASP.NET", value: 80},
+        {label: "Javascript", value: 70},
+        {label: "RDBMS", value: 80},
+        {label: "Docker", value: 80},
+        {label: "Node.js", value: 70},
         {label: "C++", value: 50},
         {label: "Python", value: 20}
     ];
