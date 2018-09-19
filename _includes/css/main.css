@@ -189,8 +189,7 @@ section.success {
 }
 
 section.secondary-blue {
-    color: #fff;
-    background: #7FB3D5;
+    background: #{{ site.color.secondary-blue }};
 }
 
 @media(max-width:767px) {
