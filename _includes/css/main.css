@@ -8,14 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-p {
-    font-size: 20px;
-}
-
-p.small {
-    font-size: 16px;
-}
-
 a,
 a:hover,
 a:focus,
@@ -25,13 +17,16 @@ a.active {
     color: #{{ site.color.link }};
 }
 
+p {
+    margin: 0 0 2px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -98,10 +93,15 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+header .intro-text .job {
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -127,34 +127,32 @@ header .intro-text .intro {
     header .intro-text .intro {
         font-size: 1.5em;
     }
+
+    header .intro-text .job {
+        font-size: 1.75em;
+    }
 }
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 15px 0;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 5px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        padding: 1px 0;
     }
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -188,6 +186,11 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+section.secondary-blue {
+    color: #fff;
+    background: #7FB3D5;
 }
 
 @media(max-width:767px) {
@@ -474,4 +477,19 @@ footer .footer-below {
 /* modal list-inline seperator */
 .item-sepertor li:after {
     content: '|';
+}
+
+.about-text .name {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.about-text .job {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.btn-sns {
+    font-size: 25px;
+    padding: 0px;
 }

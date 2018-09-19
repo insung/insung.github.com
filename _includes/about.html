@@ -1,18 +1,32 @@
- <!-- About Section -->
-    <section class="success" id="about">
+    <!-- About Section -->
+    <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>소개</h2>
-                    <hr class="star-light">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <img class="img-responsive img-circle img-centered" src="img/profile.png" alt="" width="300">
+                    <hr class="star-primary">
+                    <div class="about-text text-center">
+                        <span class="name">{{ site.name }}</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>안녕하세요. 저는 아주 멋지고 훌륭한 소프트웨어 엔지니어를 꿈꾸고 있는 사람입니다. 개발하는 것을 즐기며 천직으로 생각하고 있습니다.</p>
-                    <p>.NET 에서 주로 개발하고 있지만, 다른 언어, 다른 환경을 배우는데 자신 있습니다.</p>
+
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <h3>소개</h3>
+                    <p>안녕하세요. 저는 개발하는 것을 즐기며 천직으로 생각하고 있는 사람입니다.</p>
+                    <p>웹 개발을 주로 하고 있지만, 여러 플랫폼에서 다양한 언어로 개발했던 경험이 있습니다.</p>
                     <p>이 페이지는 제가 참여했던 프로젝트를 간단하게 소개하려고 만들었습니다.</p>
+                    
+                    <br />
+                    <p>아래 링크로 저의 Github 도 방문해 보세요!</p>
+                    <ul class="list-inline">
+                        {% for sns in site.social %}                        
+                        <li>
+                            <a href="{{ sns.url }}" class="btn btn-link btn-sns" target="_blank"><i class="fa fa-fw fa-{{ sns.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
+
                 <!--<div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> 다운로드 엑셀
