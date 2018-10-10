@@ -29,6 +29,7 @@ color:
   secondary-dark: 233140 #A2122F
   secondary-blue: D6EAF8
   link: FE642E
+  placeholder: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

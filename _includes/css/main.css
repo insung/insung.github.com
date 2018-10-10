@@ -192,6 +192,11 @@ section.secondary-blue {
     background: #{{ site.color.secondary-blue }};
 }
 
+section.secondary-dark {
+    color: #fff;
+    background: #{{ site.color.secondary-dark }};
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -491,4 +496,21 @@ footer .footer-below {
 .btn-sns {
     font-size: 25px;
     padding: 0px;
+    color: #2C3E50;
+}
+
+*::-webkit-input-placeholder {
+    color: gray!important;
+}
+
+*:-moz-placeholder {
+    color: gray!important;
+}
+
+*::-moz-placeholer {
+    color: gray!important;
+}
+
+*:-ms-input-placeholder {
+    color: gray!important;
 }
