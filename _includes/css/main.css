@@ -14,8 +14,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #2c3e50;
-    text-decoration: none;
+    color: #2c3e50;    
 }
 
 p {
@@ -562,5 +561,6 @@ footer .footer-below {
   }
 
   .project-image {
-      width: 710px;
+      margin-bottom: 20px;
+      margin-top: 20px;
   }
