@@ -14,7 +14,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.link }};
+    color: #2c3e50;
+    text-decoration: none;
 }
 
 p {
@@ -24,10 +25,13 @@ p {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+h4 {
+    font-family: "sans-serif";
     font-weight: 700;
 }
 
@@ -216,7 +220,7 @@ section.secondary-dark {
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
     max-width: 400px;
 }
 
@@ -459,7 +463,7 @@ footer .footer-below {
 }
 
 .portfolio-img-size {
-    min-height: 180px;    
+    width: 240px;
 }
 
 .cation-text {
@@ -514,3 +518,49 @@ footer .footer-below {
 *:-ms-input-placeholder {
     color: gray!important;
 }
+
+.project {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    min-height: 11rem;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  }
+
+  .project .project-thumbnail {
+    width: 30%;
+    max-width: 100%;
+    min-height: 11rem;
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .text-align-bottom {
+      position: absolute;
+      bottom: 0;
+  }
+
+  .project-image {
+      width: 710px;
+  }

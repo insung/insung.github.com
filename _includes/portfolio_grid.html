@@ -9,26 +9,28 @@
                 </div>
             </div>
             <div class="row">
-            
-            {% assign posts = site.posts | sort: 'modal-id' %}
-            {% for post in posts %}
-
-                <div class="col-md-3 portfolio-item">
-                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                <div class="col-lg-12">
+                    {% assign posts = site.posts | sort: 'modal-id' %}
+                    {% for post in posts %}
+                        <div class="well portfolio-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                        <figure class="figure">
+                                            <img src="img/portfolio/{{ post.img }}" class="img-responsive portfolio-img-size" alt="{{ post.alt }}">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="col-md-8" style="min-height: 155px">
+                                    <h4><a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link effect-4" data-toggle="modal"> {{ post.alt }} </a></h4>
+                                    <!-- <p> {{ post.description | strip_html | truncatewords: 20 }} </p> -->
+                                    <!-- <p> {{ post.skill }} </p> -->
+                                    <p class="text-align-bottom"> {{ post.project-date }} </p>
+                                </div>
                             </div>
                         </div>
-                        <figure class="figure">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive portfolio-img-size" alt="{{ post.alt }}">
-                            <figcaption class="figure-caption cation-text">{{ post.alt }}</figcaption>
-                        </figure>
-                        
-                    </a>
+                    {% endfor %}
                 </div>
-
-            {% endfor %}
             </div>
         </div>
     </section>
