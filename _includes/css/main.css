@@ -564,3 +564,9 @@ footer .footer-below {
       margin-bottom: 20px;
       margin-top: 20px;
   }
+
+  .project-image-figure {
+      margin-top: -30px;
+      color: #566573;
+      font-style: italic;
+  }
