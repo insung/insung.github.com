@@ -18,7 +18,7 @@ $(function() {
         {label: "ASP.NET", value: 80},
         {label: "Javascript", value: 70},
         {label: "RDBMS", value: 80},
-        {label: "Docker", value: 80},
+        {label: "Docker", value: 70},
         {label: "Node.js", value: 70},
         {label: "C++", value: 50},
         {label: "Python", value: 20}

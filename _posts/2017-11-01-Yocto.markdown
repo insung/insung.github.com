@@ -6,7 +6,8 @@ img: yocto.png
 classification: yocto project for ShadowCube (LoggerHead)
 project-date: 2017년 8월 &mdash; 2017년 12월
 category: yocto project for ShadowCube (LoggerHead)
-skill: yocto
-description: ShadowCube 를 임베디드 시스템에 탑재하기 위하여 커스터마이징된 linux 시스템(<a href="https://www.yoctoproject.org/" target="_blank">yocto project 참고</a>)을 만들기 위한 프로젝트입니다.<br />ShadowCube 는 ASP.NET 으로 개발이 되었기 때문에 mono 를 먼저 임베디드 시스템에 탑재해야 했습니다. mono 는 잘 만들어진 open source 이지만, ShadowCube 에서 필요한 apache-mod-mono, fastcgi, xsp 는 yotco 에서 실행되지 않아 애를 먹었습니다.<br />결국 소스 하나하나 찾아서 빌드되도록 한 다음에 임베디드 시스템에 탑재하였지만.. 성능의 이슈가 있어 포기해야만 했습니다. :-(<br /><br />yocto project 에서 mono xsp 를 빌드될 수 있도록 한 것을 <a href="https://github.com/insung/mono-server-yocto" target="_blank">Github</a>에 정리해 보았습니다!
+skill: <a href="https://www.yoctoproject.org/" target="_blank">yocto</a>
+summary: ShadowCube 를 두루안 자체 임베디드 시스템에 탑재하기 위해 시작한 프로젝트입니다.
+description: ShadowCube 를 두루안 자체 임베디드 시스템에 탑재하기 위해 시작한 프로젝트입니다.<br />ShadowCube 는 ASP.NET 으로 개발이 되었기 때문에 Linux 에서 .NET 을 동작해주는 mono 를 먼저 임베디드 시스템에 탑재해야 했습니다.<br /><br />mono 는 잘 만들어진 open source 라서 임베디드 시스템에 탑재가 되었지만, ShadowCube 웹 호스팅에  필요한 apache-mod-mono, fastcgi, xsp 는 Open Embeded Recipe 로 제공이되지 않아 처음부터 시작하였습니다.<br /><br />필요한 프로그램의 소스를 하나하나 찾아서 yocto 환경에서 빌드되도록 한 다음에 임베디드 시스템에 탑재하였지만.. 속도 등 성능상의 이슈가 있어서 포기해야만 했습니다. :-(<br /><br />yocto project 에서 mono xsp 를 빌드될 수 있도록 한 것을 <a href="https://github.com/insung/mono-server-yocto" target="_blank">Github</a>에 정리해 보았습니다!
 
 ---
