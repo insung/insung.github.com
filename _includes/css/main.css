@@ -546,27 +546,32 @@ footer .footer-below {
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
 
-  .project .project-thumbnail {
+.project .project-thumbnail {
     width: 30%;
     max-width: 100%;
     min-height: 11rem;
     -webkit-background-size: cover;
             background-size: cover;
     background-position: 50% 50%;
-  }
+}
 
-  .text-align-bottom {
-      position: absolute;
-      bottom: 0;
-  }
+.text-align-bottom {
+    position: absolute;
+    bottom: 0;
+}
 
-  .project-image {
-      margin-bottom: 20px;
-      margin-top: 20px;
-  }
+.project-image {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
-  .project-image-figure {
-      margin-top: -30px;
-      color: #566573;
-      font-style: italic;
-  }
+.project-image-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-image-caption {
+    margin-top: -28px;      
+    color: #566573;
+    font-style: italic;
+}
