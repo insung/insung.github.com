@@ -561,8 +561,8 @@ footer .footer-below {
 }
 
 .project-image {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 5px !important;
+    margin-top: 5px;
 }
 
 .project-image-center {
