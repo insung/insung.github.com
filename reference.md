@@ -3,6 +3,7 @@
 * http://www.kaiwa-projects.com/ko/
 * http://woowabros.github.io/experience/2017/07/17/resume.html
 * https://y7kim.github.io/
+* https://jasoseol.com/blog/post/3
 
 ### jekyll theme
 
